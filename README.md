@@ -9,7 +9,6 @@ To weave the environment for this digital alchemy, follow these incantations:
 
 ```
 conda env create -f environment.yml
-
 conda activate pdfRAG
 ```
 
@@ -17,13 +16,9 @@ If the above does not work for you, fear not. Try these alternative spells:
 
 ```
 conda create -n "pdfRAG-env" python==3.10
-
 conda activate pdfRAG-env
-
 pip install -U langchain openai chromadb langchain-experimental
-
 pip install "unstructured[all-docs]" pillow pydantic lxml pillow matplotlib chromadb tiktoken
-
 pip intall streamlit
 ```
 
