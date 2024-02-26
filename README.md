@@ -6,7 +6,8 @@ A langchain-based retrieval augmented generated pipeline for multi-modal PDF ana
 To run the program, clone the repository and run the following commands:
 
 ```
-- pip install requirements.txt
+- conda env create -f environment.yml
+- conda activate pdfRAG
 
 - export OPENAI_API_KEY= <your-api-key-here>
 
