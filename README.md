@@ -1,11 +1,11 @@
 # The Document Maestro
-A langchain-based retrieval-augmented-generation pipeline for multi-modal PDF analysis with a focus on ESG document analysis.
+A Langchain-powered retrieval-augmented-generation pipeline for comprehensive multi-modal analysis of PDFs, specifically tailored for ESG document probing.
 
 ![Screenshot from 2024-02-26 16-28-24](https://github.com/alibukhari6728/The-Document-Maestro/assets/63595396/1f8d9f3f-0ba3-47b1-bdfd-92a0c8900fdc)
 
 ## Environment
 
-To set-up the environment, please run the following commands:
+To weave the environment for this digital alchemy, follow these incantations:
 
 ```
 conda env create -f environment.yml
@@ -13,12 +13,12 @@ conda env create -f environment.yml
 conda activate pdfRAG
 ```
 
-in case the above environment set-up does not work for you, please try the following commands:
+If the above does not work for you, fear not. Try these alternative spells:
 
 ```
-conda create -n "pdfRAG" python==3.10
+conda create -n "pdfRAG-env" python==3.10
 
-conda activate pdfRAG
+conda activate pdfRAG-env
 
 pip install -U langchain openai chromadb langchain-experimental
 
@@ -29,13 +29,13 @@ pip intall streamlit
 
 #### API-Key
 
-Please add your OPENAI API-key with:
+Whisper your OPENAI API-key:
 
 - `export OPENAI_API_KEY= <your-api-key-here>`
 
 ## Launch APP
 
-To run the web-app, please run:
+To set sail, chant:
 
 - `streamlit run app.py`
 
