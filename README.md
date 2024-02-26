@@ -8,18 +8,23 @@ A langchain-based retrieval augmented generated pipeline for multi-modal PDF ana
 To set-up the environment, please run the following commands:
 
 ```
-- conda env create -f environment.yml
-- conda activate pdfRAG
+conda env create -f environment.yml
+
+conda activate pdfRAG
 ```
 
 in case the above environment set-up does not work for you, please try the following commands:
 
 ```
-- conda create -n "pdfRAG" python==3.10
-- conda activate pdfRAG
-- pip install -U langchain openai chromadb langchain-experimental
-- pip install "unstructured[all-docs]" pillow pydantic lxml pillow matplotlib chromadb tiktoken
-- pip intall streamlit
+conda create -n "pdfRAG" python==3.10
+
+conda activate pdfRAG
+
+pip install -U langchain openai chromadb langchain-experimental
+
+pip install "unstructured[all-docs]" pillow pydantic lxml pillow matplotlib chromadb tiktoken
+
+pip intall streamlit
 ```
 
 #### API-Key
