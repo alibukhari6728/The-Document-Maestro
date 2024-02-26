@@ -1,0 +1,47 @@
+name: pdfRAG
+channels:
+  - defaults
+dependencies:
+  - _libgcc_mutex=0.1=main
+  - _openmp_mutex=5.1=1_gnu
+  - bzip2=1.0.8=h7b6447c_0
+  - ca-certificates=2023.12.12=h06a4308_0
+  - ld_impl_linux-64=2.38=h1181459_1
+  - libffi=3.4.4=h6a678d5_0
+  - libgcc-ng=11.2.0=h1234567_1
+  - libgomp=11.2.0=h1234567_1
+  - libstdcxx-ng=11.2.0=h1234567_1
+  - libuuid=1.41.5=h5eee18b_0
+  - ncurses=6.4=h6a678d5_0
+  - openssl=3.0.13=h7f8727e_0
+  - pip=23.3.1=py310h06a4308_0
+  - python=3.10.13=h955ad1f_0
+  - readline=8.2=h5eee18b_0
+  - setuptools=68.2.2=py310h06a4308_0
+  - sqlite=3.41.2=h5eee18b_0
+  - tk=8.6.12=h1ccaba5_0
+  - tzdata=2023d=h04d1e81_0
+  - wheel=0.41.2=py310h06a4308_0
+  - xz=5.4.5=h5eee18b_0
+  - zlib=1.2.13=h5eee18b_0
+  - pip:
+      - blinker==1.7.0
+      - chardet==5.2.0
+      - chromadb==0.4.23
+      - click==8.1.7
+      - distro==1.9.0
+      - langchain==0.1.9
+      - langchain-community==0.0.22
+      - langchain-core==0.1.26
+      - langchain-experimental==0.0.52
+      - langsmith==0.1.5
+      - markupsafe==2.1.5
+      - monotonic==1.6
+      - olefile==0.47
+      - orjson==3.9.14
+      - pyparsing==3.1.1
+      - pytz==2024.1
+      - six==1.16.0
+      - streamlit==1.31.1
+      - zipp==3.17.0
+prefix: /home/ali/anaconda3/envs/pdfRAG
