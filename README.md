@@ -13,4 +13,3 @@ To run the program, clone the repository and run the following commands:
 - streamlit run app.py
 ```
 
-![image](https://github.com/alibukhari6728/The-Document-Maestro/assets/63595396/468abfd6-f25c-4854-9c35-076feff38ab4)
