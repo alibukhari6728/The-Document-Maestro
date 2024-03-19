@@ -26,7 +26,7 @@ pip intall streamlit
 
 Whisper your OPENAI API-key:
 
-- `export OPENAI_API_KEY= <your-api-key-here>`
+- `export OPENAI_API_KEY=<your-api-key-here>`
 
 ## Launch APP
 
