@@ -34,3 +34,8 @@ To set sail, chant:
 
 - `streamlit run app.py`
 
+# Upcoming Updates:
+
+- Knowledge Graphs (very soon)
+- Corrective Strategy
+- RPN-based chunk optimization
