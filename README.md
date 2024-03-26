@@ -37,5 +37,7 @@ To set sail, chant:
 # Upcoming Updates:
 
 - Knowledge Graphs (very soon)
-- Corrective Strategy
+- Corrective Strategy (supervising LLM)
 - RPN-based chunk optimization
+- Reciprocal Reranking
+- Multimodal OpenLLM based local engine
